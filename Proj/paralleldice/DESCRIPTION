@@ -1,0 +1,12 @@
+Package: paralleldice
+Type: Package
+Title: Calculate probabilities of various dice-rolling events
+Version: 1.0
+Date: 2015-03-20
+Author: Nelson Johansen, Ricardo Matsui, Michael Polyakov 
+Maintainer: Ricardo Matsui <rmmatsui@ucdavis.edu>
+Description: This package parallelizes the dice package by Dylan Arena which provides utilities to calculate the probabilities of various dice-rolling events. The parallelizations are implemented using Snow, Thrust, and OpenMP.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.5)
+Depends: R (>= 2.0.0), gtools, dice, ggplot2
+LinkingTo: Rcpp

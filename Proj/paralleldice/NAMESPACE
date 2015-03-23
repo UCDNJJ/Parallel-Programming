@@ -1,0 +1,3 @@
+useDynLib(thrustdice)
+useDynLib(ompdice)
+export(thrustGetEventProb)

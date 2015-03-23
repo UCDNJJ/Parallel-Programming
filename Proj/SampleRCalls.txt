@@ -1,0 +1,4 @@
+dyn.load("dice.so")
+library(Rcpp)
+.Call("getEventProb", 6,1,4,list(4,3,c(1,2)),FALSE)
+
